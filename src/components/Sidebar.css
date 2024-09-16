@@ -1,0 +1,55 @@
+/* Sidebar.css */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #444;
+    color: white;
+    overflow-x: hidden;
+    transition: transform 0.3s ease;
+    transform: translateX(-250px);
+  }
+  
+  .sidebar.open {
+    transform: translateX(0);
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 20px;
+    right: -30px;
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .arrow:hover {
+    background-color: #555;
+  }
+  
+  .members-list {
+    padding: 20px;
+  }
+  
+  .members-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .members-list li {
+    margin: 10px 0;
+  }
+  
+  .members-list li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .members-list li a:hover {
+    text-decoration: underline;
+  }
+  

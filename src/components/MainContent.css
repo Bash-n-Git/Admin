@@ -1,0 +1,44 @@
+/* MainContent.css */
+.main-content {
+     /* To account for the sidebar */
+    padding: 20px;
+  }
+  
+  .projects-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .projects-table th, .projects-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .projects-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .projects-table tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .table-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .table-buttons button {
+    padding: 8px 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .table-buttons button:hover {
+    background-color: #555;
+  }
+  

@@ -1,0 +1,13 @@
+/* App.css */
+.app {
+  font-family: Arial, sans-serif;
+}
+
+.content-container {
+  display: flex;
+  margin-top: 60px; /* Adjust to fit the navbar */
+}
+
+.content-container .main-content {
+  flex-grow: 1;
+}
